@@ -1,0 +1,96 @@
+
+img{
+    width: 100%;
+}
+.head{
+    background-color: rgb(247,247,247);
+    height: 44px;
+    text-align: center;
+    border: 1px solid rgb(216, 216,216);
+}
+.head p{
+    margin-top: 10px;
+}
+.logincontain{
+    height: 539px;
+    background-color: rgb(255,255,255);
+}
+.loginform{
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+    top:30px;
+    position:relative;
+    border: 1px solid black;
+    width: 569px;
+    height: 396px;
+    margin: 0 auto;
+    border: 1px solid rgb(223,227,231 );
+    background-color: white;
+}
+.loginform input{
+    border: 1px solid rgb(223,227,231 );
+    padding: 10px;
+    margin: 0 14px 14px 14px;
+    height: 28px;
+    border-radius: 10px;
+}
+.loginform input:focus{
+    box-shadow: 0 0 10px rgb(129,189,255);
+    outline: 1px solid rgb(129,189,255);
+    border: none;
+}
+.loginform h2{
+    padding: 30px; 
+    border-bottom: 1px solid rgb(223,227,231 );
+    margin-bottom: 20px;
+}
+.loginform .selecta{
+    display: flex;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.loginform .selecta input{
+    margin:auto 5px;
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+.loginform .selecta input:first-of-type{
+    margin-right: 30px;
+}
+.loginform .selecta label{
+    margin:auto 0;
+}
+.loginform .case{
+    color:gray;
+    margin-left: 15px;
+}
+.loginform .signin{
+    margin: auto;
+    display: flex;
+    width:128px;
+    background-color: rgb(255,215,94);
+    border-radius: 20px;
+}
+.loginform .signin .icon{
+    color:black;
+    margin: auto 0;
+    margin-left: 35px;
+    transition: 0.2s;
+}
+.loginform .signin input{
+    border: none;
+    color:rgb(111,113,116);
+    background:transparent;
+    height: 100%;
+    margin:auto 0;
+    padding-left: 0;
+}
+.loginform .signin input:hover{
+    color:black;
+}
+.loginform .signin .icon:hover{
+    color:black;
+    transform: scale(1.3);
+}
